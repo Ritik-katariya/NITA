@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background-size: 100%;
+}
+
+
+.nav {
+
+    /* font-size: 16px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #060303;
+    height: 60.4px;
+    color: rgb(250, 107, 18);
+    align-items: end;
+    
+}
+
+.nav1 {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(250, 107, 18);
+
+
+}
+
+.nav1:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(11, 11, 71);
+
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+}
+.nav3{
+    text-decoration: none;
+}
+
+input {
+   font-family: fantasy;
+   font-size: 16px;
+    text-align: center;
+    width: 414px;
+    height: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    cursor: pointer;
+    color:rgb(255, 67, 4);
+}
+input:hover{
+    background-color: rgb(11, 11, 71);
+    color: white;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+    
+
+}
+button{margin-bottom: 16px;
+background-color: rgb(234, 107, 10);
+border: 2px solid rgb(249, 152, 7);
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(208, 141, 7);
+}
+
+.serach{
+    display: flex;
+    justify-content: right;
+   
+}
+
+.contianer{
+    position: absolute;
+    top: 61px;
+   /* background-color: #3a3535; */
+   background-color: #09273d;
+   width: 100vw;
+   height: 92.6vh;
+   
+
+}
+.moonimg{
+float: left;
+height: 200px;
+width: 200px;
+padding: 20px;
+}
+.moon{
+    color: rgb(214, 212, 212);
+    padding: 20px;
+    padding-top: 30px;
+}
+.adityaimg{
+    float: right;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    }
+    .aditya{
+        color: rgb(255, 111, 8);
+        padding: 20px;
+        padding-top: 30px;
+    }
+    .footer{
+        position: absolute;
+        bottom:50px;
+        left: 39%;
+    color: aliceblue;
+        text-align: center;
+    }
+    .contianer1{
+        margin: 0 20px;
+        padding: 20px ;
+    }
+    h1{
+        font-size: 30px;
+    }

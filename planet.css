@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background-size: 100%;
+}
+
+
+.nav {
+
+    /* font-size: 16px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #060303;
+    height: 60.4px;
+    color: rgb(250, 107, 18);
+    align-items: end;
+   
+}
+
+.nav1 {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(250, 107, 18);
+
+
+}
+
+.nav1:hover {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(11, 11, 71);
+
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.1);
+
+
+}
+.nav3{
+    text-decoration: none;
+}
+
+input {
+   font-family: fantasy;
+   font-size: 16px;
+    text-align: center;
+    width: 414px;
+    height: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 16px;
+    margin-left: 32px;
+    cursor: pointer;
+    color:rgb(255, 67, 4);
+}
+input:hover{
+    background-color: rgb(11, 11, 71);
+    color: white;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+    
+
+}
+button{margin-bottom: 16px;
+background-color: rgb(234, 107, 10);
+border: 2px solid rgb(249, 152, 7);
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(208, 141, 7);
+}
+
+.serach{
+    display: flex;
+    justify-content: right;
+   
+}
+.container{
+    position: absolute;
+    top: 61px;
+   /* background-color: #3a3535; */
+   background-color: #09273d;
+   
+   
+   
+
+
+}
+h1{
+    font-size: 30px;
+}
+.con{
+    margin: 0 20px;
+    padding: 20px;
+}
+.sunimg{
+   
+    
+
+   float: left;
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.sun{
+   color: white;
+   padding: 19px;
+}
+.mercury{padding: 40px;
+    color: rgb(253, 253, 253);
+    padding: 19px;
+}
+.mercuryimg{
+    float: right;
+    padding: 20px;
+    
+    width: 200px;
+    height: 200px;
+}
+.venus{padding: 40px;
+    color: white;
+    padding: 19px;
+}
+.venusimg{
+    float: left;
+    padding: 20px;
+    
+    width: 200px;
+    height: 200px;
+}
+.earth{padding: 40px;
+    color: white;
+    padding: 19px;
+}
+.earthimg{
+    float: right;
+    padding: 20px;
+    
+    width: 200px;
+    height: 200px;
+}
+.next{
+    display: flex;
+    justify-content: center;
+}
+.next1{ 
+    color:rgb(255, 67, 4);
+
+font-size: 20px;
+height: 25px;
+width: 100px;
+text-align: center;
+}
+.next1:hover{
+    background-color: rgb(11, 11, 71);
+
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.sun{
+    color: rgb(255, 175, 62);
+}
+.mercury{
+    color: rgb(192, 255, 255);
+}
+.venus{
+    color: #b55e00;
+
+}
+.earth{
+    color:rgb(0, 217, 255);
+}
